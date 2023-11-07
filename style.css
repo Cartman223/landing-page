@@ -156,3 +156,53 @@ a {
     font-weight: 700;
     margin-left:auto;
 }
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin: 25px 50px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 35px 250px;
+    border: solid #3882F6;
+    border-radius: 10px;
+    gap: 25%;
+}
+
+.left-banner {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.left-banner > * {
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.left-banner p {
+    color: #E5E7EB;
+}
+
+.call-to-action .comprar {
+    border: solid #F9FAF8;
+    border-width: 2px 2px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 4px 4px;
+}
+
+.comprar a {
+    padding: 8px 50px;
+    border: transparent;
+    border-width: 1px 1px;
+    border-radius: 10px;
+    
+}
