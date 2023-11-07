@@ -2,11 +2,19 @@ body {
     margin: 0;
 }
 
+.top {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
 .first-header {
     display:flex;
     background-color: #1F2937;
-    justify-content: space-evenly;
-    padding-bottom: 100px;
+    justify-content: space-between;
+    padding-bottom: 125px;
 }
 
 .logo {
@@ -36,11 +44,9 @@ a {
 .second-header {
     background-color: #1F2937;
     display: flex;
-    justify-content: center;
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-    gap: 8%;
+    justify-content: space-between;
+    padding-bottom: 125px;
+    gap: 75px;
 }
 
 .left-side {
@@ -77,8 +83,8 @@ a {
 
 .right-side {
     display: flex;
-    width: 500px;
-    height: 250px;
+    width: 525px;
+    height: 235px;
     flex-shrink: 1;
 }
 
@@ -89,5 +95,5 @@ a {
 }
 
 .header-img {
-    min-width: 0 /* this keeps the child from overflowing it's container. Update: only sometimes. */
+    min-width: 100px /* this keeps the child from overflowing it's container. Update: only sometimes. */
 }
